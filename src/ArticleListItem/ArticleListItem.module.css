@@ -1,0 +1,18 @@
+.articleTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  color: darkred;
+}
+
+.articleBody {
+  margin-bottom: 20px;
+  border: 2px solid #701717;
+  border-radius: 10px;
+  padding: 0 15px 15px 15px;
+  background: linear-gradient(to right, #ff5656, white 20%);
+  box-shadow: 3px 3px 5px;
+}
+
+.time {
+  font-weight: bold;
+}
