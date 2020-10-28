@@ -24,11 +24,11 @@ const ArticleListItem = (props) => {
   }
 
   return (
-    <article className = {css.articleBody}>
-        <h1 className = {css.articleTitle}>{props.article.title}</h1>
+    <div className = {css.articleBody}>
+        <h1 className = {css.articleTitle}><u>{props.article.title}</u></h1>
         {content}
-        <ArticleTextToggleButton  buttonText = {buttonText} onClick = {onClick} />
-    </article>
+        <ArticleTextToggleButton buttonText = {buttonText} onClick = {onClick} />
+    </div>
   );
 };
 

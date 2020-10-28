@@ -5,12 +5,15 @@
 }
 
 .articleBody {
-  margin-bottom: 20px;
   border: 2px solid #701717;
   border-radius: 10px;
-  padding: 0 15px 15px 15px;
+  padding: 0px 5px 5px 5px;
   background: linear-gradient(to right, #ff5656, white 20%);
   box-shadow: 3px 3px 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .time {

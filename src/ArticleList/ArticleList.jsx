@@ -7,7 +7,7 @@ const ArticleList = props => {
   return (
     <ul className = {css.articleList}>
       {props.articles.map(article => (
-        <li key={article.slug}>
+        <li className = {css.articleBlock} key={article.slug}>
           <ArticleListItem article ={article} />
         </li>
       ))}

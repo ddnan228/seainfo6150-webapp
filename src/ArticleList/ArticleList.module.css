@@ -7,4 +7,13 @@
   border: 2px #545759 dotted;
   box-shadow: red 0px 0px 15px;
 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.articleBlock {
+  display: grid;
+  grid-auto-flow: row;
 }
