@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleList test renders correctly 1`] = `
+<div>
+  <ul
+    class="articleList"
+  >
+    <li
+      class="articleBlock"
+    >
+      <div
+        class="articleBody"
+      >
+        <h1
+          class="articleTitle"
+        >
+          <u>
+            The Statue of Liberty's torch heads to new museum
+          </u>
+        </h1>
+        
+        <button
+          class="itemButton"
+        >
+          Show more
+        </button>
+      </div>
+    </li>
+    <li
+      class="articleBlock"
+    >
+      <div
+        class="articleBody"
+      >
+        <h1
+          class="articleTitle"
+        >
+          <u>
+            You can take a pie on a plane
+          </u>
+        </h1>
+        
+        <button
+          class="itemButton"
+        >
+          Show more
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

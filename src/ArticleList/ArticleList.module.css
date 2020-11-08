@@ -8,7 +8,7 @@
   box-shadow: red 0px 0px 15px;
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 20px;
   row-gap: 10px;
 }
@@ -16,4 +16,32 @@
 .articleBlock {
   display: grid;
   grid-auto-flow: row;
+}
+
+@media (min-width: 300px) {
+  .articleList {
+    grid-template-columns: 1fr;
+    background-color: gray;
+  }
+}
+
+@media (min-width: 650px) {
+  .articleList {
+    grid-template-columns: 1fr 1fr;
+    background-color: pink;
+  }
+}
+
+@media (min-width: 900px) {
+  .articleList {
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+  }
+}
+
+@media (min-width: 1200px) {
+  .articleList {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: gray;
+  }
 }
