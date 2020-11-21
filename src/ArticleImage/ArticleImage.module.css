@@ -1,0 +1,9 @@
+.imageStyle {
+  max-width: 50%;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 5px solid red;
+  box-shadow: 5px 5px 5px gray;
+}

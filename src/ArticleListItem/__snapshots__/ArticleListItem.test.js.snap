@@ -3,15 +3,21 @@
 exports[`ArticleListItem test renders correctly 1`] = `
 <div>
   <div
-    class="articleBody"
+    class="listItem"
   >
-    <h1
-      class="articleTitle"
-    >
-      <u>
-        The Statue of Liberty's torch heads to new museum
-      </u>
-    </h1>
+    <div>
+      <img
+        class="imageStyle"
+        src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+      />
+      <h1
+        class="articleTitle"
+      >
+        <u>
+          The Statue of Liberty's torch heads to new museum
+        </u>
+      </h1>
+    </div>
     
     <button
       class="itemButton"

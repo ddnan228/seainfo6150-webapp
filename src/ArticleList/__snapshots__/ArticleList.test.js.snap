@@ -9,15 +9,21 @@ exports[`ArticleList test renders correctly 1`] = `
       class="articleBlock"
     >
       <div
-        class="articleBody"
+        class="listItem"
       >
-        <h1
-          class="articleTitle"
-        >
-          <u>
-            The Statue of Liberty's torch heads to new museum
-          </u>
-        </h1>
+        <div>
+          <img
+            class="imageStyle"
+            src="https://cdn.cnn.com/cnnnext/dam/assets/181122102925-statue-of-liberty-crown-super-169.jpg"
+          />
+          <h1
+            class="articleTitle"
+          >
+            <u>
+              The Statue of Liberty's torch heads to new museum
+            </u>
+          </h1>
+        </div>
         
         <button
           class="itemButton"
@@ -30,15 +36,21 @@ exports[`ArticleList test renders correctly 1`] = `
       class="articleBlock"
     >
       <div
-        class="articleBody"
+        class="listItem"
       >
-        <h1
-          class="articleTitle"
-        >
-          <u>
-            You can take a pie on a plane
-          </u>
-        </h1>
+        <div>
+          <img
+            class="imageStyle"
+            src="https://cdn.cnn.com/cnnnext/dam/assets/170321135754-airport-security-line-file-super-169.jpg"
+          />
+          <h1
+            class="articleTitle"
+          >
+            <u>
+              You can take a pie on a plane
+            </u>
+          </h1>
+        </div>
         
         <button
           class="itemButton"
